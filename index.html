@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="developer"
+      sizes="180x180"
+      href="assets/icons/developer.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/developer.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Jane Doe | Web Developer</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>ALIREZA RAHNAMA</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <img src="assets/images/standing.PNG" alt="Alireza-Rahnama" loading="lazy" class="hero-img" />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am a senior Computer Science student with a keen interest in software development and artificial intelligence.
+          I take pride in being a fast learner, an active listener,
+          and a team player who always strives to renew my skills to stay
+          relevant and deliver quality software with respect to the best practices and maintaining deadlines.
+        </p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I am a senior Computer Science student with a keen interest in software development and artificial intelligence.
+        I take pride in being a fast learner, an active listener, and a team player who always strives to
+        renew my skills to stay relevant and deliver quality
+        software with respect to the best practices and maintaining deadlines.
+      </p>
+      <p>
+        I am familiar with several programming languages and tools including Python, Java, JavaScript, HTML, CSS, Python's libraries for 
+        machine learning, deep learning, and visual computing. I am also familiar with Version control Systems such as Git for collaborative software development.
+      </p>
+      <p><center><button class="submit-btn" name="CV"><a href="assets/resume/AlirezaRahanamaResume.pdf">Download Resume</a></button>
+      </center></p>
+
+    </section>
+
+
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/java.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css3.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/javascript.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/html.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/git.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="mailto:alirezarm3@gmail.com" method="post" enctype="text/plain">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="socials">
+      
+      <a href="https://www.linkedin.com/in/alireza-rahnama-8a9333186" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Alireza-rahnama" target="_blank"
+        ><img
+          src="assets/icons/icons8-github.gif"
+          alt="Github"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://twitter.com/AlirezaRahnam17" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/alirezarhnm/?hl=en" target="_blank"
+        ><img src="assets/icons/icons8-instagram.gif" alt="Instagram" class="socicon"
+  /></a>
+
+
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="scroll-up" /></i>
+
+    <!-- <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        
+        <a href="https://www.linkedin.com/in/alireza-rahnama-8a9333186/" target="_blank"
+          >Alireza Rahnama</a>
+      </p>
+    </footer> -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/index.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
