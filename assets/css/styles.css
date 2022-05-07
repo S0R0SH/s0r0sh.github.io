@@ -390,6 +390,7 @@
   
     .bio {
       width: 18.3rem;
+      display: none;
     }
   
     .project-container {
