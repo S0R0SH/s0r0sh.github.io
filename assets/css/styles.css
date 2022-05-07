@@ -381,7 +381,7 @@
 }
 
 @media screen and (max-width: 420px) {
-    .hero img {
+    .hero-img {
       height: 37.5rem;
       width: 23rem;
       display: block;
