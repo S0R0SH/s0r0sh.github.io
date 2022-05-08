@@ -62,6 +62,7 @@
 
   nav h1 {
     color: var(--primary-color);
+    justify-content:left;
   }
   
   nav a {
