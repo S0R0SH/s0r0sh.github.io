@@ -83,6 +83,15 @@
   }
 
   /* class  */
+
+
+  .logo{ 
+    width: 10rem;
+    height: 10rem;
+   }
+     
+   
+   
   .burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
