@@ -358,6 +358,7 @@
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
+    display: none;
   }
   .more-about {
     margin-top: 2rem;
