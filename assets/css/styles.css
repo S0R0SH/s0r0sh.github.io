@@ -168,6 +168,9 @@
     text-align: center;
     margin-top: 2.5rem;
     margin-bottom: var(--bottom-margin-2);
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
   }
   
   .icon {
