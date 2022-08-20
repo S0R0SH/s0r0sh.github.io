@@ -161,6 +161,13 @@
   .skills-wrapper img {
     padding: 1.25rem;
   }
+
+  .twitter {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
   
   .icon {
     width: 11.875rem;
